@@ -132,6 +132,10 @@ h2 {
     gap: 40px;
 
 }
+.first_input{
+    display: flex;
+    gap: 10px;
+}
 
 #gettouch {
     border-radius: 25px;
@@ -157,6 +161,9 @@ label {
     nav{display: flex;
         flex-direction:column; 
 
+    }
+    .text>p{
+        width: 100%;
     }
     /* respo mobile by ahlam */
     .parent1 {
@@ -190,7 +197,7 @@ width: 130px;
 
     .red {
         font-size: x-small;
-        padding: 8px;
+        padding: 10px;
     }
 
     .white {
@@ -243,6 +250,25 @@ width: 130px;
     .button{
         display: none;
     }
+    .thirdsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdsection>.text{
+      width: 100%;
+        
+    }
+    .thirdsection>.text>p{
+        font-size: 30px;
+    }
+    .box{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+   
 
 }
 
@@ -251,6 +277,7 @@ width: 130px;
     flex-direction: column;
     padding-left: 20vw;
     gap: 15px;
+   padding-top: 60px;
 
 }
 
@@ -265,7 +292,7 @@ h3 {
 }
 
 h2 {
-    color: #202084;
+    
     font-size: 30px;
 
 }
@@ -273,11 +300,11 @@ h2 {
 .first_input {
     display: flex;
     gap: 3vw;
-    width: 100%;
+    width: 86%;
 }
 
 .contain {
-    width: 40%;
+    width: 50%;
 
 }
 
