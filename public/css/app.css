@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 h1{
     color: rgb(32, 32, 132);
@@ -34,6 +34,7 @@ p{
     border: none;
     color: white;
     padding: 1rem;
+    width: 150px;
 }
 .white{
     border: none;
@@ -79,5 +80,84 @@ h2{
         flex-direction: column; 
 
     }
+
     
+}
+.parent2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+    gap: 15px;
+
+}
+.child222{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+h3{
+    color: red;
+}
+h2{
+    color: rgb(32, 32, 132);
+    font-size: 30px;
+  
+}
+.first_input{
+    display: flex;
+    gap: 3vw;
+    width:100%;
+}
+.input{
+    width: 46.6%;
+   
+}
+.input>input{
+    background-color: rgb(152, 182, 251);
+outline: none;
+padding: 1rem;
+width: 100%;
+border-radius: 5px;
+}
+.second_input>textarea{
+    outline: none;
+    background-color: rgb(152, 182, 251);
+width: 100%;
+border-radius: 5px;
+
+}
+.second_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.parent3{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 119);
+gap: 5vh;
+color: white;
+}
+.h1{
+    color: red;
+    font-size: larger;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+    color: white;
+}
+
+
+.flexing{
+    display: flex;
+    gap: 20px;
+}
+.paragraph{
+    text-align: center;
 }
