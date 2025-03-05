@@ -121,10 +121,69 @@ padding: 2vh 2vw;
      color: white;
      background-color: rgba(232, 13, 50, 0.906);
 }
+#menu,
+label {
+    display: none;
+}
+label {
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.close{
+    display: none;
+}
+
 @media (max-width:480px) {
-    .navbare{display: flex;
+    nav{display: flex;
         flex-direction:column; 
 
+    }
+    .logo{
+        display: none;
+    }
+    
+    nav {
+        background-color: rgb(32, 18, 18);
+                position: fixed;
+                width: 60%;
+                 height: 100vh; 
+                left: -200%;
+                transition: 0.5s;
+                flex-direction: column;
+                align-items: start;
+                gap: 5vh !important;
+                padding: 5vw !important;
+                color: azure;
+                top: 0vh;
+                
+            }
+            nav>a{
+                color: aliceblue;
+            }
+        
+            #menu:checked+nav {
+                left: 0;
+            }
+            .mobile{
+                display: flex;
+                gap:70vw;
+            }
+            nav>.close{
+              
+              right: 0;
+              margin-left:70vw;
+              position: relative;
+              display: block;
+                
+            }
+   .close:checked~nav{
+    display: none;
+   }
+    
+    .button{
+        display: none;
     }
 
     
