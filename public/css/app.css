@@ -1,12 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-     text-decoration: none;
+     
+}
+a{
+    text-decoration: none;
 }
 .navbare{
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    
     align-items: center;
     padding: 3vh;
 }
@@ -25,19 +28,50 @@ a:hover{
     color: red;
     cursor: pointer;
 }
-a{
-    color: rgba(7, 7, 100, 0.692);
-}
+
 h2{
     color:rgba(7, 7, 100, 0.692) ;
 }
 .text{
-    display: flex;
     
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    width: 30%;
+    gap: 10px;
+    
+}
+.text>p{
+    font-size: 50px;
+    color:rgba(7, 7, 100, 0.692) ;
+   
+   
 }
 .box{
     display: flex;
     flex-direction: column;
+    width: 18%;
+    gap:10px ;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+padding: 2vh 2vw;
+}
+.box>p{
+    width: 90%;
+    color: rgba(34, 24, 78, 0.434);
+}
+.thirdsection{
+    display :flex ;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-left:20vh ;
+    gap: 40px;
+
+}
+#gettouch{
+     border-radius:25px ;
+     width: 40%;
+     color: white;
+     background-color: rgba(232, 13, 50, 0.906);
 }
 @media (max-width:480px) {
     .navbare{display: flex;
