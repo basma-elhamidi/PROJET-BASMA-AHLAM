@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-h1{
+
+h1 {
     color: rgb(32, 32, 132);
     font-size: 80px;
 }
-.parent1{
+
+.parent1 {
     display: flex;
-gap: 10px;
-width: 100%;
+    gap: 10px;
+    width: 100%;
 }
-.child1{
+
+.child1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -21,15 +24,18 @@ width: 100%;
     width: 50%;
 
 }
-p{
-    width: 30vw;
+
+p {
+    width: 20vw;
 }
-.child2{
+
+.child2 {
     display: flex;
     justify-content: flex-end;
     width: 50%;
 }
-.red{
+
+.red {
     background-color: #f37070;
     border-radius: 22px;
     border: none;
@@ -37,89 +43,101 @@ p{
     padding: 2vh 2vw;
     width: 150px;
 
-    
+
 }
-.button{
+
+.button {
     display: flex;
     gap: 20px;
 }
-.white{
+
+.white {
     border: none;
-    color:rgb(32, 32, 132); 
+    color: rgb(32, 32, 132);
     padding: 1rem;
     background-color: transparent;
     border-radius: 22px;
 
     padding: 0;
     margin: 0;
-     text-decoration: none;
+    text-decoration: none;
 }
-.navbare{
+
+.navbare {
     display: flex;
     justify-content: space-evenly;
-    
+
     align-items: center;
     padding: 3vh 2vw;
 }
-nav{
+
+nav {
     display: flex;
     gap: 40px;
 }
-button{
+
+button {
     padding: 1.8vh 1.5vw;
-    color:red;
+    color: red;
     border: none;
     font-size: 14px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-a:hover{
+
+a:hover {
     color: red;
     cursor: pointer;
 }
 
-h2{
-    color:rgba(7, 7, 100, 0.692) ;
+h2 {
+    color: rgba(7, 7, 100, 0.692);
 }
-.text{
-    
+
+.text {
+
     display: flex;
     flex-direction: column;
     padding-right: 10px;
     width: 30%;
     gap: 10px;
-    
+
 }
-.text>p{
+
+.text>p {
     font-size: 50px;
-    color:rgba(7, 7, 100, 0.692) ;
-   
-   
+    color: rgba(7, 7, 100, 0.692);
+
+
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     width: 18%;
-    gap:10px ;
+    gap: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-padding: 2vh 2vw;
+    padding: 2vh 2vw;
 }
-.box>p{
+
+.box>p {
     width: 90%;
     color: rgba(34, 24, 78, 0.434);
 }
-.thirdsection{
-    display :flex ;
+
+.thirdsection {
+    display: flex;
     flex-direction: row;
     padding-top: 70px;
-    padding-left:20vw ;
+    padding-left: 20vw;
     gap: 40px;
 
 }
-#gettouch{
-     border-radius:25px ;
-     width: 40%;
-     color: white;
-     background-color: rgba(232, 13, 50, 0.906);
+
+#gettouch {
+    border-radius: 25px;
+    width: 40%;
+    color: white;
+    background-color: rgba(232, 13, 50, 0.906);
 }
 #menu,
 label {
@@ -138,6 +156,46 @@ label {
 @media (max-width:480px) {
     nav{display: flex;
         flex-direction:column; 
+
+    }
+    /* respo mobile by ahlam */
+    .parent1 {
+        display: flex;
+        gap: 1rem;
+        justify-content: start;
+    }
+
+    .child2 {
+        display: flex;
+        justify-content: flex-start;
+        width: 50px;
+    }
+.child2>img{
+width: 130px;
+}
+    .child1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10vh;
+        justify-content: start;
+    }
+
+    .child1>h1 {
+        font-size: 30px;
+    }
+
+    .child1>p {
+        width: 40vw;
+    }
+
+    .red {
+        font-size: x-small;
+        padding: 8px;
+    }
+
+    .white {
+        font-size: x-small;
+        padding: 8px;
 
     }
     .logo{
@@ -186,79 +244,91 @@ label {
         display: none;
     }
 
-    
 }
-.parent2{
+
+.parent2 {
     display: flex;
     flex-direction: column;
     padding-left: 20vw;
     gap: 15px;
 
 }
-.child222{
-    display:flex;
+
+.child222 {
+    display: flex;
     flex-direction: column;
     gap: 15px;
 }
-h3{
+
+h3 {
     color: red;
 }
-h2{
-    color: rgb(32, 32, 132);
+
+h2 {
+    color: #202084;
     font-size: 30px;
-  
-}
-.first_input{
-    display: flex;
-    gap: 3vw;
-    width:100%;
-}
-.contain{
-    width: 40%;
-   
-}
-.contain>input{
-    background-color: rgba(60, 106, 212, 0.13);
-/* outline: none; */
-padding: 1rem;
-width: 100%;
-border-radius: 5px;
-border: none;
-}
-.second_input>textarea{
-    outline: none;
-    background-color: rgba(60, 106, 212, 0.13);
-width: 88%;
-border-radius: 5px;
-border: none;
 
 }
-.second_button{
+
+.first_input {
+    display: flex;
+    gap: 3vw;
+    width: 100%;
+}
+
+.contain {
+    width: 40%;
+
+}
+
+.contain>input {
+    background-color: rgba(60, 106, 212, 0.13);
+    /* outline: none; */
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.second_input>textarea {
+    outline: none;
+    background-color: rgba(60, 106, 212, 0.13);
+    width: 88%;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.second_button {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
     padding-top: 30px;
-   
+
 }
-.contain>input{
+
+.contain>input {
     outline: none;
 }
-.parent3{
+
+.parent3 {
     padding-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgb(34, 34, 119);
-gap: 5vh;
-color: white;
+    gap: 5vh;
+    color: white;
 }
-.h1{
+
+.h1 {
     color: red;
     font-size: larger;
 }
-.icons{
+
+.icons {
     display: flex;
     gap: 20px;
     font-size: x-large;
@@ -266,12 +336,13 @@ color: white;
 }
 
 
-.flexing{
+.flexing {
     display: flex;
     gap: 20px;
 }
-.paragraph{
+
+.paragraph {
     text-align: center;
 }
 
-
+/* respo by ahlam  */
